@@ -1,0 +1,27 @@
+1.zad
+
+int main(){
+    int suma=0;
+    int liczba=0;
+    while(scanf("%d\n", &liczba)>0){
+        suma+=liczba;
+    }
+    printf("suma: %d\n", suma);
+    return 0;
+
+}
+
+2.zad
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(int argc, char** argv){
+    int i = 1;
+    for(i = 1; i<argc; i++)
+        printf("arg %d = %d\n", i, atoi(argv [i]));
+    return 0;
+
+}
+
+3.zad 
